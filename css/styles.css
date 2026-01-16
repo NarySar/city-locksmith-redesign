@@ -1,0 +1,30 @@
+/* --- FONTS --- */
+/* "Playfair Display" gives that Classic, Established feel */
+.font-classic {
+    font-family: 'Playfair Display', serif;
+}
+
+/* --- BRAND COLORS --- */
+/* Primary Text Color (Dark Gray for readability) */
+.text-brand-dark { color: #1e293b; } 
+
+/* NEW ACCENT: Royal Blue (Matches the new Logo) */
+.text-brand-blue { color: #2563eb; } /* Royal Blue */
+.bg-brand-blue { background-color: #2563eb; } 
+.border-brand-blue { border-color: #2563eb; }
+
+/* Button Hover: Darker Navy Blue */
+.hover\:bg-brand-blue-dark:hover { background-color: #1e3a8a; }
+
+/* Silver/Gray Accents (Matches the silver in the logo) */
+.bg-brand-silver { background-color: #f8fafc; }
+.border-brand-silver { border-color: #e2e8f0; }
+
+/* --- UTILITIES --- */
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
